@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <section className="container-x py-24 text-center"><div className="font-serif text-7xl font-bold text-brand">404</div><h1 className="mt-3 text-2xl font-bold">Sayfa bulunamadı</h1><p className="mt-2 text-ink/65">Aradığınız sayfa taşınmış olabilir.</p><div className="mt-6 flex justify-center gap-3"><Link href="/" className="btn-primary">Ana sayfa</Link><Link href="/randevu" className="btn-outline">Online randevu</Link></div></section>; }
